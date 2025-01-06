@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD_RELATION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation bar styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fffff0;
+            padding: 15px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            color: #D2042D;
+            font-size: 35px;
+            font-family: Arial;
+            font-weight: bold;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-right: 20px;
+        }
+
+        /* Logo styling */
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            height: 30px;
+        }
+
+        /* Nav links styling */
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #007bff;
+        }
+
+        /* Content container */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 100px auto 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #f20e71;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Video container styling */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .relation-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            /* align-items: center; */
+            font-size: 15px;
+            text-align: left;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .relation-table th,
+        .relation-table td {
+            padding: 5px 10px;
+            border: 1px solid #cccccc;
+        }
+
+        .relation-table thead th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .relation-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            /* Aligns the button to the right */
+            padding: 10px;
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #083f7d;
+            /* Button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            /* Removes underline from link */
+            display: inline-block;
+            /* Makes it look like a button */
+        }
+
+        .next-button:hover {
+            background-color: #0056b3;
+            /* Optional: Darkens on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">ARGvaag
+
+        </div>
+
+        <div class="nav-links">
+            <a href="Quiz.js">Quiz</a>
+            <a href="#">Companies d</a>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>Seating_Arrangements</h1>
+        <p>
+            In reasoning, a series refers to a sequence of numbers, letters, figures, or terms that follow a certain
+            pattern or rule. Series questions are common in competitive exams, and they test your ability to identify
+            patterns and predict the next element in the sequence. Here are some common types of series questions and
+            how to approach them
+        </p>
+
+        <div class="video-container">
+
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/gXBuL_FyahE" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <!-- <h2>Direction</h2>
+        <img src="seating arrangement.jpg" alt="Tips and Tricks" title="Seating_Arrangement"> -->
+
+        <h3>1. Number Series</h3>
+        <p>
+            In these, numbers are arranged in a sequence based on some mathematical logic. <br>
+            Example:2, 4, 8, 16, ? <br>
+            Solution: This is a multiplication series where each term is multiplied by 2. The next term is
+            16 × 2= 32 <br>
+            Common Patterns: <br>
+            1. Addition/Subtraction: Each term is obtained by adding or subtracting a fixed number. <br>
+            2. Multiplication/Division: Each term is multiplied or divided by a fixed number. <br>
+            3. Squares/Cubes: Series based on squares (e.g., 1, 4, 9, 16...) or cubes (e.g., 1, 8, 27, 64...). <br>
+            4. Alternating Series: Two sequences interwoven together (e.g., odd terms follow one rule, even terms
+            another).
+
+        <h3>2. Alphabet Series </h3>
+        <p>
+            These series involve letters that follow a certain pattern based on their positions in the alphabet. <br>
+            Example: A, C, E, G, ? <br>
+            Solution: The pattern is skipping one letter each time. The next letter after G, skipping H, is I. <br>
+            Common Patterns: <br>
+            1. Forward/Backward Shift: Letters move forward or backward by a fixed number. <br>
+            2. Alternating Letters: Letters may alternate by skipping certain letters or change positions. <br>
+            3. Position-Based Pattern: Pattern based on the alphabetical positions of the letters (e.g., 1 for A, 2 for
+            B).
+        </p>
+
+        <h3>3. Mixed Series</h3>
+        <p>
+            These series may involve a combination of letters and numbers. <br>
+            Example: A1, B2, C3, D4, ? <br>
+            Solution: The pattern is an increasing sequence of letters and numbers. The next term is E5. <br>
+
+
+        <h3>4. Geometric or Visual Pattern Series </h3>
+
+        Sometimes series involve shapes or symbols arranged in a certain order. <br>
+        Example: A triangle with one dot, a triangle with two dots, a triangle with three dots, ? <br>
+        Solution: The number of dots is increasing by one in each step. The next shape is a triangle with four dots.
+        <br>
+
+
+        <h3>5. Logical Pattern Series </h3>
+        These might follow more complex logic that isn’t always numerical, like a sequence of events or conditional
+        patterns
+
+        </p>
+
+        <h2>Tips and Tricks </h2>
+        <p>
+           1. Identify the Pattern: Look at differences, ratios, or positions in the sequence.
+           2. Check for Alternating Patterns: In complex series, two interwoven sequences might be present.
+           3. Use Positioning in the Alphabet: In alphabet series, numeric positions (A=1, B=2, etc.) can reveal patterns.
+           4. Practice with Variations: Familiarity with common types (addition, subtraction, geometric, etc.) helps.
+        </p>
+
+
+
+
+        <div class="button">
+            <a href="Clork.html" class="next-button">Next</a>
+        </div>
+    </div>
+</body>
+
+</html>

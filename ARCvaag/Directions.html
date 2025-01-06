@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD_RELATION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation bar styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fffff0;
+            padding: 15px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            color: #D2042D;
+            font-size: 35px;
+            font-family: Arial;
+            font-weight: bold;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-right: 20px;
+        }
+
+        /* Logo styling */
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            height: 30px;
+        }
+
+        /* Nav links styling */
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #007bff;
+        }
+
+        /* Content container */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 100px auto 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #f20e71;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Video container styling */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .relation-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            /* align-items: center; */
+            font-size: 15px;
+            text-align: left;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .relation-table th,
+        .relation-table td {
+            padding: 5px 10px;
+            border: 1px solid #cccccc;
+        }
+
+        .relation-table thead th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .relation-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            /* Aligns the button to the right */
+            padding: 10px;
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #083f7d;
+            /* Button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            /* Removes underline from link */
+            display: inline-block;
+            /* Makes it look like a button */
+        }
+
+        .next-button:hover {
+            background-color: #0056b3;
+            /* Optional: Darkens on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">ARGvaag
+            
+        </div>
+
+        <div class="nav-links">
+            <a href="Quiz.js">Quiz</a>
+            <a href="#">Pratice d</a>
+           
+        </div>
+    </div>
+    <div class="container">
+        <h1>DIRECTIONS</h1>
+        <p>In reasoning, "direction" refers to the ability to determine spatial orientation, particularly the relative
+            positions or movements of objects or persons. Direction-based reasoning problems test an individual's
+            ability to understand and interpret directional cues and navigate accordingly. They often involve scenarios
+            where a person or object moves in specific directions (north, south, east, west) or rotates to face a
+            different orientation. <br>
+
+            These problems generally require interpreting complex movements and changes in direction, understanding
+            relative positioning, and keeping track of multiple turns or shifts in location. To solve them, one must
+            visualize or diagram the scenario, maintain a mental map, and consistently apply directional cues.
+            Direction-based reasoning is essential in fields like navigation, military strategy, logistics, and urban
+            planning, where spatial awareness and the ability to quickly assess directions are crucial. <br>
+
+            Typically, problems in this category involve: <br>
+            - Determining the final direction or location after a series of turns. <br>
+            - Establishing distances covered in different directions. <br>
+            - Visualizing compass-based directions for orientation-related questions.</p>
+        </h3>
+
+        <div class="video-container">
+
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/x0WkptLF6oE" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <p>Assumptions Related to Direction Reasoning <br>
+            The main direction change undergoes a 90° change in direction. For instance, there is a 90° change from East
+            to North / South. <br>
+            The change is only 45° change in cardinal direction. For example, there is a 45° change in North to North –
+            East or North to North – West. <br>
+            The direction of the right turn is always clockwise. <br>
+            The direction of the left turn is always anti-clockwise. <br>
+            The problem on the distance covered or the minimal distance between two points in direction reasoning is
+            solved by using the concept of Pythagoras theorem. <br>
+            All these distances are along straight lines and between specified points.</p>
+
+        <h2>Direction-based</h2>
+        <img src="directions.jpg" alt="Tips and Tricks" title="BR Tips and Tricks">
+
+        <h2>Tipcs and Tricks</h2>
+        <p>
+            There are only four primary directions: north, south, east and west. <br>
+
+            1. North-East, North-West, South-East, and South-West are the four cardinal directions.  <br>
+
+            2. If a man stands facing east at sunrise, his shadow will be cast towards the west. <br>
+
+            3. The shadow of an item is always in the east during sunset. <br>
+
+            4. If a guy stands facing North at daybreak, his shadow will be to his left, and at sunset, it will be to his
+               right. <br>
+
+            5. The sun’s beams are vertically downward at 12:00 noon, therefore there will be no shadow..
+
+        </p>
+
+
+        <div class="button">
+            <a href="Seating_Arrangement.html" class="next-button">Next</a>
+        </div>
+    </div>
+</body>
+
+</html>

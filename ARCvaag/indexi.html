@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="stylesp.css">
+    <script type="module" src="firebaseauth.js"></script>
+    
+
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">ARCvaag</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SERVICES</a>
+                            <ul class="dropdown">
+                                <li><a href="Aptitude.html">Aptitude</a></li>
+                                <li><a href="Resoning.html">Reasoning</a></li>
+                                <li><a href="Quiz.js">Companies</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="signup.html">REGISTRATION</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To Text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Placement Preparation<br>
+                <span>Hub</span></h1>
+            <p class="par">Your gateway to success in job placement and career advancement.<br>At ARCvaag, we provide a comprehensive suite of tools and resources <br>designed to help you excel in your job search and secure your dream position.</p><br> 
+            <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed(".auto-input",{
+                    strings: ["coding","sleeping","eating"],
+                    typeSpeed: 150,
+                    backSpeed: 150,
+                    loop: true,
+
+                })
+            </script> -->
+            <button class="cn"><a href="signup.html">JOIN US</a></button>
+
+            <div class="form"> 
+                <h2>Login Here</h2>
+                <form id="LoginForm" class="active" action="login.php" method="post">
+                    <input type="text"  name="username" required placeholder="Username">
+                    <input type="password" name="password" required placeholder="password">
+                    <button class="btnn"><a href="#">Login</a></button>
+                  
+                 </form>
+                
+                
+                <p style="font-size: medium;" class="link"> <br>Don't have an account 
+                <a href="sign.php">Sign up</a>  here</a></p>
+                
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD_RELATION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation bar styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fffff0;
+            padding: 15px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            color: #D2042D;
+            font-size: 35px;
+            font-family: Arial;
+            font-weight: bold;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-right: 20px;
+        }
+
+        /* Logo styling */
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            height: 30px;
+        }
+
+        /* Nav links styling */
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #007bff;
+        }
+
+        /* Content container */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 100px auto 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #f20e71;
+            margin-bottom: 20px;
+        }
+
+        h4{
+            color:rgb(2, 10, 7);
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Video container styling */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .relation-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            /* align-items: center; */
+            font-size: 15px;
+            text-align: left;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .relation-table th,
+        .relation-table td {
+            padding: 5px 10px;
+            border: 1px solid #cccccc;
+        }
+
+        .relation-table thead th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .relation-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            /* Aligns the button to the right */
+            padding: 10px;
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #083f7d;
+            /* Button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            /* Removes underline from link */
+            display: inline-block;
+            /* Makes it look like a button */
+        }
+
+        .next-button:hover {
+            background-color: #0056b3;
+            /* Optional: Darkens on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">ARGvaag
+           
+        </div>
+
+        <div class="nav-links">
+            <a href="Quiz.js">Quiz</a>
+            <a href="#">Pratice d</a>
+            
+        </div>
+    </div>
+    <div class="container">
+        <h1>Statement and Conclusion:</h1>
+        <p>A statement is a group of words arranged to form meaningful sentences. A conclusion is a judgement or decision reached after consideration about the given statement. Different types of questions are covered from this analytical reasoning section such as one statement with two conclusions, more than two statements and conclusions based, and so on... <br> 
+
+            A conclusion is an option or decision that is formed after a period of thought or research on some facts or sentences stated by someone. A consequent effect needs to be analyzed before reaching to the final result or conclusion or a given premise. It requires a very systematic and logical approach.</p></h3>
+
+        <div class="video-container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/8ZZp9LwXPDI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <h2>Types of Statement and Conclusion:</h2>
+        <h4>1. Action Motive:</h4>
+        <p>In this type of statement and conclusion reasoning, questions are based on an action being undertaken. If such an action is always taken with a particular type of motive, then such type of motive exists. </p>
+
+        <h4>2. Cause Effect:</h4>
+        <p>In this type of statement and conclusion reasoning, questions are based on the type of effects, which would take place for a particular cause. If an action is undertaken and if such an action always leads to a particular type of effect, then it is definitely true and such an effect would take place. </p>
+
+        <h4>3. Keywords:</h4>
+        <p>One of the most important aspects of evaluating this type of statement and conclusion reasoning is to understand some popular words, which are known as keywords. The most significant use of keywords is that it helps in distinguishing between definitely true, probably true, and definitely false statements.  <br>
+            In Standard Keywords, adjectives, conjunctions, verbs, and adverbs, which are used in the statement provide the idea on the quantity as well as the quality of a statement. Some examples are, some, none, never, always, sometimes, must be, etc. </p>
+
+
+        <!-- <img src="blood relation.jpg" alt="Tips and Tricks" title="BR Tips and Tricks"> -->
+        <h2>Tipcs and Tricks</h2>
+        <p>Tip # 1: Candidates can evaluate and inference/conclusion with the help of some keywords used in a passage.  <br>
+
+            Tip # 2: To avoid confusion between the choices “definitely true” and “probably true”, candidates should check if the extra assumption they need to make in order to inference/conclusion is universally true. The same thing can be used in case of “definitely false” and “probably false” statements.</p>
+
+
+        <div class="button">
+            <a href="Coding and Decoding.html" class="next-button">Next</a>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

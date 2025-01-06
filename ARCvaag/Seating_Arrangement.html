@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD_RELATION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation bar styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fffff0;
+            padding: 15px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            color: #D2042D;
+            font-size: 35px;
+            font-family: Arial;
+            font-weight: bold;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-right: 20px;
+        }
+
+        /* Logo styling */
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            height: 30px;
+        }
+
+        /* Nav links styling */
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #007bff;
+        }
+
+        /* Content container */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 100px auto 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #f20e71;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Video container styling */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .relation-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            /* align-items: center; */
+            font-size: 15px;
+            text-align: left;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .relation-table th,
+        .relation-table td {
+            padding: 5px 10px;
+            border: 1px solid #cccccc;
+        }
+
+        .relation-table thead th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .relation-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            /* Aligns the button to the right */
+            padding: 10px;
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #083f7d;
+            /* Button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            /* Removes underline from link */
+            display: inline-block;
+            /* Makes it look like a button */
+        }
+
+        .next-button:hover {
+            background-color: #0056b3;
+            /* Optional: Darkens on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">ARGvaag
+
+        </div>
+
+        <div class="nav-links">
+            <a href="Quiz.js">Quiz</a>
+            <a href="#">Compinies d</a>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>Seating_Arrangements</h1>
+        <p>
+            Seating arrangement problems in logical reasoning involve determining the position of individuals or objects
+            based on specific conditions. These puzzles test spatial reasoning, critical thinking, and attention to
+            detail. The common types include linear arrangements (individuals are arranged in a straight line), circular
+            arrangements (individuals sit around a circular table), and rectangular/square arrangements (people seated
+            around tables with defined corners). Each setup may also require handling directions: left, right,
+            clockwise, or counterclockwise.
+            <br>
+
+            To solve these problems, start by carefully analyzing all given clues, and identify those providing clear
+            initial placements. For example, clues like "A sits two seats to the right of B" or "C sits between D and E"
+            are foundational in setting up initial positions. Visual aids like diagrams or tables are highly useful to
+            map out possible placements. <br>
+
+            When interpreting directional clues, remember that "left" and "right" depend on the orientation (whether
+            people are facing inward, outward, or the same direction). Work through each condition methodically, filling
+            in gaps and ensuring consistency across all given clues. A systematic approach is key, as is rechecking to
+            ensure all criteria are met without contradictions.
+        </p>
+
+        <div class="video-container">
+
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/GYe98jwCn7g" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <h2>Direction</h2>
+        <img src="seating arrangement.jpg" alt="Tips and Tricks" title="Seating_Arrangement">
+
+        <h2>Tipcs and Tricks</h2>
+        <p>
+           1. Analyze Given Data: <br>
+           Read all conditions carefully and organize them mentally or with rough notes.  <br>
+
+           2. Identify Key Clues: <br>
+           Start with the most concrete clues, such as “A sits to the immediate left of B” or “C is
+           seated at the end of the row.” Place these individuals first to form a framework.  <br>
+
+           3. Use Directional Language: <br>
+
+            A.In linear seating, the "left" and "right" may change depending on the direction individuals face. <br>
+            B.In circular seating, if facing the center, “right” moves clockwise and “left” counterclockwise. <br>
+            4.Draw Diagrams: Visualizing positions using diagrams is helpful, especially in circular and rectangular
+            arrangements. Label each spot or seat to keep track. <br>
+
+            5.Iterate with Conditions: Place other individuals or objects based on remaining clues, and use a process of
+            elimination if multiple options are possible. <br>
+
+            6.Recheck for Consistency: After placing all elements, ensure that all given conditions are satisfied. This
+            avoids conflicts and confirms the arrangement. <br>
+        </p>
+
+
+        <div class="button">
+            <a href="Clork.html" class="next-button">Next</a>
+        </div>
+    </div>
+</body>
+
+</html>

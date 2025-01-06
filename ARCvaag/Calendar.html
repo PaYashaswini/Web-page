@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD_RELATION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation bar styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fffff0;
+            padding: 15px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            color: #D2042D;
+            font-size: 35px;
+            font-family: Arial;
+            font-weight: bold;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-right: 20px;
+        }
+
+        /* Logo styling */
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            height: 30px;
+        }
+
+        /* Nav links styling */
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #007bff;
+        }
+
+        /* Content container */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 100px auto 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #f20e71;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            color: rgb(2, 10, 7);
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Video container styling */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .relation-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            /* align-items: center; */
+            font-size: 15px;
+            text-align: left;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .relation-table th,
+        .relation-table td {
+            padding: 5px 10px;
+            border: 1px solid #cccccc;
+        }
+
+        .relation-table thead th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .relation-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            /* Aligns the button to the right */
+            padding: 10px;
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #083f7d;
+            /* Button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            /* Removes underline from link */
+            display: inline-block;
+            /* Makes it look like a button */
+        }
+
+        .next-button:hover {
+            background-color: #0056b3;
+            /* Optional: Darkens on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">ARGvaag
+
+        </div>
+
+        <div class="nav-links">
+            <a href="Quiz.js">Quiz</a>
+            <a href="#">Pratice d</a>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>Calendar:</h1>
+        <p>
+            A calendar is a system of organizing days for social, religious, commercial, or administrative purposes. It
+            helps to manage time by dividing years, months, weeks, and days. Let’s break down the essentials of
+            calendars, focusing on how they’re used in reasoning and competitive exams.
+        </p>
+        <div class="video-container">
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/oxc4G14nyUY" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <h3>Key Concepts in Calendar Problems </h3>
+        <p>
+            1.Days of the Week: <br>
+            #. The days follow a fixed sequence: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.
+            #. Calendar questions often require finding the day of the week on a given date <br>
+
+            Leap Year:
+
+            2.A year is a leap year if:
+            #.It is divisible by 4, but not by 100, or
+            #.It is divisible by 400.
+            #.Leap years have 366 days (with February 29), while regular years have 365 days.
+            #.Every leap year has 52 weeks and 2 extra days, and every non-leap year has 52 weeks and 1 extra day. <br>
+
+            3.Number of Odd Days
+            Definition: Odd days refer to the extra days left after dividing a period by 7. This concept helps determine
+            the day of the week for any given date.
+
+            1.1 ordinary year = 365 days = 52 weeks + 1 day → 1 odd day
+            2.1 leap year = 366 days = 52 weeks + 2 days → 2 odd days
+            3.100 years = 76 ordinary years + 24 leap years = 36524 days = 5 odd days
+            4.200 years = 10 odd days → 3 odd days (as 10 mod 7 is 3)
+            5.300 years = 15 odd days → 1 odd day
+            6.400 years = 0 odd days (as it’s exactly divisible by 7)
+        </p>
+        <h4>1. Action Motive:</h4>
+        <p>In this type of statement and conclusion reasoning, questions are based on an action being undertaken. If
+            such an action is always taken with a particular type of motive, then such type of motive exists. </p>
+
+        <h4>2. Cause Effect:</h4>
+        <p>In this type of statement and conclusion reasoning, questions are based on the type of effects, which would
+            take place for a particular cause. If an action is undertaken and if such an action always leads to a
+            particular type of effect, then it is definitely true and such an effect would take place. </p>
+
+        <h4>3. Keywords:</h4>
+        <p>One of the most important aspects of evaluating this type of statement and conclusion reasoning is to
+            understand some popular words, which are known as keywords. The most significant use of keywords is that it
+            helps in distinguishing between definitely true, probably true, and definitely false statements. <br>
+            In Standard Keywords, adjectives, conjunctions, verbs, and adverbs, which are used in the statement provide
+            the idea on the quantity as well as the quality of a statement. Some examples are, some, none, never,
+            always, sometimes, must be, etc. <br>
+        <h4>3. Month Codes </h4>
+        <table>
+            <caption>Month Codes</caption>
+            <tr>
+                <th>Month</th>
+                <th>Code</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>April</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>May</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>June</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>July</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>September</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>October</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>November</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>December</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+
+
+        </p>
+
+
+        <!-- <img src="blood relation.jpg" alt="Tips and Tricks" title="BR Tips and Tricks"> -->
+        <h2> 5. Formula to Find the Day of the Week </h2>
+        To find the day of the week for any given date, use the following steps:
+
+        Calculate the Day Code: <br>
+        Day Code= (Date + Month Code + Year Code + Century Code) mod 7 <br>
+        Breakdown of Components:
+
+        a.Date: The day of the month. <br>
+        b. Month Code: As per the table above. <br>
+        c. Year Code: The last two digits of the year <br>
+        d. Century Code: Based on the century (from the Century Code table). <br>
+        e. Adjust for Leap Years: If the date is in January or February of a leap year, subtract 1 from the total.
+
+        </p>
+
+
+        <div class="button">
+            <a href="Quiz.js" class="next-button">Next</a>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

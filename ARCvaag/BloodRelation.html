@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD_RELATION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navigation bar styling */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fffff0;
+            padding: 15px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            color: #D2042D;
+            font-size: 35px;
+            font-family: Arial;
+            font-weight: bold;
+            padding-left: 20px;
+            float: left;
+            padding-top: 10px;
+            margin-right: 20px;
+        }
+
+        /* Logo styling */
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            height: 30px;
+        }
+
+        /* Nav links styling */
+        .navbar .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #007bff;
+        }
+
+        /* Content container */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 100px auto 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #f20e71;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Video container styling */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .relation-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            /* align-items: center; */
+            font-size: 15px;
+            text-align: left;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .relation-table th,
+        .relation-table td {
+            padding: 5px 10px;
+            border: 1px solid #cccccc;
+        }
+
+        .relation-table thead th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .relation-table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .button {
+            display: flex;
+            justify-content: flex-end;
+            /* Aligns the button to the right */
+            padding: 10px;
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #083f7d;
+            /* Button color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            /* Removes underline from link */
+            display: inline-block;
+            /* Makes it look like a button */
+        }
+
+        .next-button:hover {
+            background-color: #0056b3;
+            /* Optional: Darkens on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">ARGvaag
+            
+        </div>
+
+        <div class="nav-links">
+            <a href="Quiz.js">Quiz</a>
+            <a href="#">Pratice d</a>
+            <!-- <a href="#">Webinars</a>
+            <a href="#">Reports</a> -->
+        </div>
+    </div>
+    <div class="container">
+        <h1>BLOOD_RELATION</h1>
+        <p>The Blood relation <em> </em>A blood relation, or blood relationship, refers to the familial bond between
+            individuals connected by birth or shared ancestry. This biological relationship results from shared genetic
+            material, tracing back to common ancestors, and includes immediate family members like parents, siblings,
+            and children, as well as extended relatives like grandparents, aunts, uncles, and cousins. Blood
+            relationships are rooted in genetics, meaning that individuals within the same bloodline may share physical
+            traits, family characteristics, or genetic predispositions to certain health conditions.
+        <h3><p>Use this below link video for better understanding about the Blood relationship......!</p></h3>
+
+        <div class="video-container">
+            <!-- <iframe src=""https://www.youtube.com/embed/LRdLhfDupMU" allowfullscreen></iframe> -->
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/LRdLhfDupMU" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <table class="relation-table">
+            <thead>
+                <tr>
+                    <th>Type of Relationship</th>
+                    <th>Terminology in Use</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mother's or Father's son</td>
+                    <td>Myself/Brother</td>
+                </tr>
+                <tr>
+                    <td>Mother's or Father's daughter</td>
+                    <td>Myself/Sister</td>
+                </tr>
+                <tr>
+                    <td>Mother's or Father's brother</td>
+                    <td>Uncle</td>
+                </tr>
+                <tr>
+                    <td>Mother's or Father's sister</td>
+                    <td>Aunt</td>
+                </tr>
+                <tr>
+                    <td>Mother's or Father's father</td>
+                    <td>Grandfather</td>
+                </tr>
+                <tr>
+                    <td>Mother's or Father's mother</td>
+                    <td>Grandmother</td>
+                </tr>
+                <tr>
+                    <td>Son's wife</td>
+                    <td>Daughter-in-law</td>
+                </tr>
+                <tr>
+                    <td>Daughter's husband</td>
+                    <td>Son-in-law</td>
+                </tr>
+                <tr>
+                    <td>Husband's or wife's sister</td>
+                    <td>Sister-in-law</td>
+                </tr>
+                <tr>
+                    <td>Husband's or wife's brother</td>
+                    <td>Brother-in-law</td>
+                </tr>
+                <tr>
+                    <td>Brother's son</td>
+                    <td>Nephew</td>
+                </tr>
+                <tr>
+                    <td>Brother's daughter</td>
+                    <td>Niece</td>
+                </tr>
+                <tr>
+                    <td>Uncle or aunt's son or daughter</td>
+                    <td>Cousin</td>
+                </tr>
+                <tr>
+                    <td>Sister's husband</td>
+                    <td>Brother-in-law</td>
+                </tr>
+                <tr>
+                    <td>Brother's wife</td>
+                    <td>Sister-in-law</td>
+                </tr>
+                <tr>
+                    <td>Grandson’s or Granddaughter’s daughter</td>
+                    <td>Great-granddaughter</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Tricks and Tips:</h2>
+        <img src="blood relation.jpg" alt="Tips and Tricks" title="BR Tips and Tricks">
+
+        <div class="button">
+            <a href="Directions.html" class="next-button">Next</a>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
